@@ -1,0 +1,86 @@
+body {
+   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeB9A3p9iYsltlFT5cy5DD0A498YGduwjgGZkj5MsPyj_AV-eu");
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+header {
+  display: flex;
+  justify-content:space-between;
+  align-self: baseline;
+  margin-left: 100px;
+  margin-top: 10px;
+  margin-right: 100px;
+}
+.logo{
+  display: flex;
+  color: white;
+}
+.image-logo{
+  display: flex;
+  margin-top: 25px;
+  width: 50px;
+  height: 30px;
+}
+.title-logo{
+  display: flex;
+  margin-left: 45px;
+  margin-left: 0px;
+  width: 30px;
+  height: 50px;
+}
+.login-button {
+  display: flex;
+  border: 1px solid #f1f1f1 ;
+  color: white;
+  margin-top: 27px;
+  padding: 8px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+main {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction:column;
+  justify-content: center;
+
+}
+h1, h5, h6 {
+  display: flex;
+color: white;
+font-style: italic;
+align-self:center;
+}
+.form-global{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content:center;
+
+}
+.input{
+ display: flex;
+ margin-bottom: 10px;
+ padding: 20px;
+ margin-right: 10px;
+}
+.select{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 110px;
+  padding-left: 100px;
+  padding-right: 110px;
+}
+.create-button {
+  display: block;
+  border-style: none;
+  color: white;
+  background-color: #3769cc;
+  align-self: center;
+}
+.paragraphe{
+text-align: center;
+font-style: italic;
+padding-right: 170px;
+padding-top: 20px;
+padding-bottom: 20px;
+padding-left: 170px;
+}
